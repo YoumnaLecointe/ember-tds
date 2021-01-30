@@ -1,5 +1,5 @@
 import Controller from '@ember/controller';
-//import { action } from '@ember/object';
+import { action } from '@ember/object';
 import { tracked } from '@glimmer/tracking';
 
 export default class Ex1Controller extends Controller {
@@ -10,6 +10,10 @@ export default class Ex1Controller extends Controller {
 
   get size(){
     return this.MAX-this.content.length;
+  }
+
+  @action clear(){
+    this.content = '';
   }
 
 
