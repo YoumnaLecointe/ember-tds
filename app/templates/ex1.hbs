@@ -6,7 +6,7 @@
     <div class="form-group">
       <Textarea class="form-control" @maxlength={{this.MAX}} id="exampleFormControlTextarea1" rows="3" placeholder="Modification de note content" @value={{this.content}}></Textarea>
     </div>
-    <div class="alert alert-dark" role="alert">Il vous reste {{this.size}} caracteres à saisir..</div>
+    <div class="alert {{this.style}}" role="alert">Il vous reste {{this.size}} caracteres à saisir !</div>
     <div class="card-header">
       <button type="button" class="btn btn-primary">Enregistrer</button>
       <button type="button" {{action "clear"}} class="btn btn-primary">Effacer</button>
