@@ -59,4 +59,7 @@ export default class Step1Route extends Route {
       },
     ];
   }
+  setupController(controller, model) {
+    controller.dispoItems = model;
+  }
 }
