@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a2848aee-6074-4e93-9c5d-6136addf6d76" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/app/adapters/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/classe/contact.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/controllers/step1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/test_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/test_new.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/serializers/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/application.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +34,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1okc3zL0LRVreFwXXlwiBYjf45L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -80,7 +82,7 @@
       <workItem from="1614613740996" duration="2077000" />
       <workItem from="1614617965216" duration="588000" />
       <workItem from="1614618603411" duration="3797000" />
-      <workItem from="1614892164432" duration="1172000" />
+      <workItem from="1614892164432" duration="3596000" />
     </task>
     <servers />
   </component>
