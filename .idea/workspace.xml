@@ -8,9 +8,13 @@
       <change afterPath="$PROJECT_DIR$/app/models/contact.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/routes/contact.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/routes/test_list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/test_new.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/serializers/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/contact.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/test_list.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/test_new.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/test_new.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/test_new.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/application.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +87,7 @@
       <workItem from="1614613740996" duration="2077000" />
       <workItem from="1614617965216" duration="588000" />
       <workItem from="1614618603411" duration="3797000" />
-      <workItem from="1614892164432" duration="4360000" />
+      <workItem from="1614892164432" duration="6435000" />
     </task>
     <servers />
   </component>
