@@ -6,6 +6,7 @@
       <change afterPath="$PROJECT_DIR$/app/classe/contact.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/controllers/step1.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/models/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/contact.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/routes/test_list.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/routes/test_new.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/serializers/application.js" afterDir="false" />
@@ -82,7 +83,7 @@
       <workItem from="1614613740996" duration="2077000" />
       <workItem from="1614617965216" duration="588000" />
       <workItem from="1614618603411" duration="3797000" />
-      <workItem from="1614892164432" duration="3596000" />
+      <workItem from="1614892164432" duration="4360000" />
     </task>
     <servers />
   </component>
