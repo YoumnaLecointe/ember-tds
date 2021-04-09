@@ -8,9 +8,8 @@ export default class TestNewRoute extends Route {
     });
   }
 
-  @action save(contact) {
-    contact.save().then(() => {
-      this.transitionTo('test_list');
-    });
+  @action save(data) {
+    let contact = this.store.createRecord('contact', data);
+    contact.save().then(() => this.transitionTo('test-list'));
   }
 }
