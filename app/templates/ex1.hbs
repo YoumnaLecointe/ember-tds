@@ -16,6 +16,10 @@
     </ul>
     <p> {{plural @model.countActive}}</p>
     <p class="alert alert-info"> Total : {{format-currency @model.sumActive "$"}}</p>
+    <div class="alert alert-info">
+      <input type="checkbox" id="promoCheck" name="promoCheck" value="">
+      
+    </div>
   </div>
 </div>
 
@@ -23,6 +27,10 @@
   .list-group-item{
     cursor: pointer;
     background-color: floralwhite;
+  }
+  .list-group-item:hover{
+    background-color: #F6F2EB;
+    color:black;
   }
   .titre{
     margin-left:11%;
