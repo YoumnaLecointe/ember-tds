@@ -1,17 +1,17 @@
-{{page-title "Ex1"}}
+{{page-title "Ex2"}}
 <div class="card">
-  <div class="card-header bg-primary text-light">Ex1: Note application</div>
-  <div class="card-body">
-    <b>Note: </b>
-    <div class="form-group">
-      <Textarea class="form-control" @maxlength={{this.MAX}} id="exampleFormControlTextarea1" rows="3" placeholder="Modification de note content" @value={{this.content}}></Textarea>
-    </div>
-    <div class="alert {{this.style}}" role="alert">Il vous reste {{this.size}} caracteres à saisir !</div>
-    <div class="card-header">
-      <button type="button" class="btn btn-primary">Enregistrer</button>
-      <button type="button" {{action "clear"}} class="btn btn-primary">Effacer</button>
-    </div>
-  </div>
-
+  <div class="card-header bg-primary text-light">Ex2: Service</div>
 </div>
+
+<div class="alert alert-info">
+  <span>Cliquez sur un service pour le séléctionner</span>
+</div>
+<ul>
+  {{#each @model.services as |srv|}}
+    <li class="list-group-item {{if srv.active "active"}}" {{action "toggleActive" srv}}>{{srv.name}} {{srv.price}}</li>
+  {{/each}}
+</ul>
+
+//dans le projet d'hugo ->plural -> faut l'ajouter ça fait l'erreur
+
 {{outlet}}
