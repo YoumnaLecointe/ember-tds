@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2848aee-6074-4e93-9c5d-6136addf6d76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/components/multi-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/array-contains.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/integration/components/multi-select-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/integration/helpers/array-contains-test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/multi-select.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/multi-select.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/application.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/application.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +78,8 @@
       <workItem from="1614613740996" duration="2077000" />
       <workItem from="1614617965216" duration="588000" />
       <workItem from="1614618603411" duration="1215000" />
+      <workItem from="1618064992775" duration="81000" />
+      <workItem from="1618065954084" duration="302000" />
     </task>
     <servers />
   </component>
