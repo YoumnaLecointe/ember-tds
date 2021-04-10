@@ -3,14 +3,31 @@
   <div class="card-header bg-primary text-light">Ex2: Service</div>
 </div>
 
-<div class="alert alert-info">
-  <span>Cliquez sur un service:</span>
+<div class="card-title justify-content-center">
+  <span class="titre">Cliquez sur un service:</span>
 </div>
-<ul>
-  {{#each @model.services as |srv|}}
-    <li class="list-group-item {{if srv.active "active"}}" {{action "toggleActive" srv}}>{{srv.name}} {{srv.price}}</li>
-  {{/each}}
-</ul>
 
+<div class="container d-flex h-100 justify-content-center">
+  <div class="row align-self-center">
+    <ul>
+      {{#each @model.services as |srv|}}
+        <li class="list-group-item {{if srv.active "active"}}" {{action "toggleActive" srv}}>{{srv.name}} {{srv.price}}</li>
+      {{/each}}
+    </ul>
+    <p> {{plural @model.countActive}}</p>
+    <p class="alert alert-info"> Total : {{format-currency @model.sumActive "$"}}</p>
+  </div>
+</div>
+
+<style>
+  .list-group-item{
+    cursor: pointer;
+    background-color: floralwhite;
+  }
+  .titre{
+    margin-left:11%;
+    font-size:150%;
+  }
+</style>
 
 {{outlet}}
