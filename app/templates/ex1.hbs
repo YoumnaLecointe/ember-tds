@@ -15,11 +15,13 @@
       {{/each}}
     </ul>
     <p> {{plural @model.countActive}}</p>
-    <p class="alert alert-info"> Total : {{format-currency @model.sumActive "$"}}</p>
-    <div class="alert alert-info">
+    <p class="total"> Total : {{format-currency @model.sumActive "$"}}</p>
+    <div class="total">
       <input type="checkbox" id="promoCheck" name="promoCheck" value="">
-      
+      <Input type="text" id="promo" @value={{@model.code}} name="promo" placeholder="code promo"/>
     </div>
+    <p class="total" id="remise"> Remise : {{format-currency @model.promoValue   "$"}}</p>
+    <p class="total" id="total" > Total de la remise : {{format-currency @model.remise "$"}}</p>
   </div>
 </div>
 
@@ -33,8 +35,13 @@
     color:black;
   }
   .titre{
-    margin-left:11%;
+    margin-left:9%;
     font-size:150%;
+  }
+  .total{
+    background-color: floralwhite;
+    border-radius: 3%;
+    box-shadow: 1px 1px 8px #D8D8D8;
   }
 </style>
 
